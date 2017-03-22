@@ -1,0 +1,25 @@
+<div id='modal' class="modal">
+	<div class="modal-header">
+		<span class="selected-date"></span>
+		<span class="cancel">&times;</span>
+	</div>
+	<div class="modal-body">
+		<input id="title" type="text" placeholder="Event Name">
+		<input id="location" type="text" placeholder="Location">
+		<label class="date-label">Starts</label>
+		<input class="date-input" type="text" id="datepicker-start">
+		<input class="time-input" type="text" id="timepicker-start" disabled>
+		<label class="date-label">Ends</label>
+		<input class="date-input" type="text" id="datepicker-end">
+		<input class="time-input" type="text" id="timepicker-end" disabled>
+		<input id="all-day" type="checkbox" checked>
+		<i class="fa fa-check-square-o"></i>
+		<label class="checkbox-label" for="all-day">All day</label>
+		<label class="date-label">Description</label>
+		<textarea name="" id="description" cols="30" rows="10"></textarea>
+	</div>
+	<div class="modal-footer">
+		<button class='cancel' type='cancel'>Cancel</button>
+		<button id='save' type='submit' data-type='create'>Save</button>
+	</div>
+</div>
